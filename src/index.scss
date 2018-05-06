@@ -1,0 +1,26 @@
+* {
+  margin: 0; padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input, button {
+  font-family: inherit !important;
+  outline: none;
+  color: inherit;
+}
+
+.__freshspire-loading-spinner {
+  animation: spin 3000ms linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
